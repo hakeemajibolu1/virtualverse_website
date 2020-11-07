@@ -50,6 +50,11 @@
     color: #fff;
 }
 
+.bg-light, .btn-light {
+    background: var(--light-color);
+    color: #333;
+}
+
 .bg-primary a, 
 .btn-primary a,
 .bg-secondary a, 
@@ -59,9 +64,21 @@
     color: #fff;
 }
 
-.bg-light, .btn-light {
-    background: var(--light-color);
-    color: #333;
+/* Text colors */
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+.text-dark {
+    color: var(--dark-color);
+}
+
+.text-light {
+    color: var(--light-color);
 }
 
 /* Text sizes */
@@ -87,6 +104,28 @@
 
 .text-center {
     text-align: center;
+}
+
+/* Alert */
+.alert {
+    background: var(--light-color);
+    padding: 10px 20px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+.alert-success {
+    background: var(--success-color);
+    color: #fff;
+}
+
+.alert-error {
+    background: var(--error-color);
+    color: #fff;
 }
 
 .flex {
